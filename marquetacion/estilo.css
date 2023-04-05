@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.padre{
+    width: 100%;
+    height: 100vb;
+    border-color:solid rgb(173, 167, 158);
+    border-style: double;
+
+}
+.hijo1{
+    width: 100%;
+    height: 10%;
+    border-color:rgb(8, 143, 60);
+    border-style:  groove;
+}
+.hijo2{
+    width: 100%;
+    height:8%;
+    border-color: blueviolet;
+    border-style: groove;
+}
+.medio{
+    display: flex;
+    flex-direction:row;
+    height:70%;
+}
+.izquierda{
+    display: flex;
+    border-color: blue;
+    border-style: groove;
+    width: 60%;
+    flex-direction: column;
+    
+    
+}
+.abajo{
+   
+    display: flex;
+    flex-direction:column;
+    height: 40%;
+    margin-top:40%;
+    
+   
+}
+.medio_abajo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-color:rgb(8, 143, 60);
+    border-style:  groove;
+    height: 20%;
+   
+}
+.medio_abajo2 {
+    border-color:rgb(8, 143, 60);
+    border-style:  groove;
+    height: 20%;
+   
+}
+.medio_abajo3 {
+    border-color:rgb(8, 143, 60);
+    border-style:  groove;
+   
+}
+.derecha{
+    display: flex;
+    border-color:rgb(194, 245, 12);
+    border-style: groove;
+    width: 40%;
+    flex-direction: column;
+    
+}
+.derecha1{
+    border-color:rgb(44, 8, 143);
+    border-style:  groove;
+    display: flex;
+    height: 50%;
+}
+.derecha2{
+    border-color:rgb(22, 8, 143);
+    border-style:  groove;
+    display: flex;
+    height: 50%;
+}
+.final{
+    width: 100%;
+    height:12%;
+    border-color: rgb(226, 223, 43);
+    border-style: groove;
+}
+.header{
+    border-color:rgb(143, 8, 8);
+    border-style:  groove; 
+}
