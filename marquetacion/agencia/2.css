@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.padre{
+    height: 100vb;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 10vb;
+    border:1cap;
+    border-color: red;
+    background-color: black;
+    justify-content: space-around;
+    
+}
+a{
+    color: aliceblue;
+    font-size: 200%;
+}
+.ofertas{
+    background-color: red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:space-around;
+
+}
