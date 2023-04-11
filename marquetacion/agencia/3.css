@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.padre{
+    height: 100vb;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 10vb;
+    border:1cap;
+    border-color: red;
+    background-color: black;
+    justify-content: space-around;
+    
+}
+a{
+    color: aliceblue;
+    font-size: 200%;
+}
+.caja{
+    background-color: aqua;
+    border-style: hidden;
+    border-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height:70%;
+}
+#formu{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    
+}
+input{
+    width: 1045px;
+    height: 40px;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+th,tr{
+    display: flex;
+    border-style:solid;
+    border-width: 1cm;
+    
+    text-align: justify;
+}
