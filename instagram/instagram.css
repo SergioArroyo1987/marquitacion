@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.padre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imagen{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    
+
+    border: 1px solid rgb(189, 184, 184);
+    width: 50%;
+    height: 70%;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 50%;
+    height:90%;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+}
+#pp{
+    font-style: italic;
+    font-size: 400%;
+    text-align: center;
+}
+input{
+    box-sizing: border-box;
+    position: relative;
+    height: 70%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+.facebook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.olvidar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    border: 1px solid rgb(189, 184, 184);
+    width: 50%;
+    height: 10%;
+    margin-top: 2%;
+    
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    background-color: rgb(219, 219, 219);
+    height: 3px;
+    width: 105px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+@media screen and (max-width: 875px){
+    .imagen{
+        display: none;
+
+    }
+    .contenido{
+        justify-content: center;
+        align-items: center;
+    }
+    .padre{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180%;
+    }
+    #a{
+        font-size: 90%;
+    }
+    .olvidar{
+        border: none;
+    }
+    .caja{
+        border: none;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .caja{
+        border: none;
+        width: 90%;
+    }
+    .olvidar{
+        border:none;
+        width: 100%;
+    }
+    .app{
+        width: 200%;
+        height:200%;
+    }
+    #pp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+}
