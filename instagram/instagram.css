@@ -3,40 +3,45 @@
     margin: 0%;
     box-sizing: border-box;
 }
-.padre{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 .imagen{
-    display: flex;
+    margin-left: 20%;
+}
+.padre {
+   
+    width: 1200px;
     
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    border:solid red 1px;
 }
+.arriba{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
 .caja{
     display: flex;
     flex-direction: column;
     
 
     border: 1px solid rgb(189, 184, 184);
-    width: 50%;
-    height: 70%;
+    width: 360px;
+    height: 500px;
+   
 
 }
 .contenido{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-around;
     align-items: center;
+    
    
-    width: 50%;
-    height:90%;
+    width: 850px;
+    height: 700px;
+    
 }
 .for{
     display: flex;
@@ -49,12 +54,14 @@
 }
 input{
     box-sizing: border-box;
-    position: relative;
+    
     height: 70%;
 }
 .formulario{
     display: flex;
     justify-content: center;
+    width: 100%;
+    
     
    
 }
@@ -69,7 +76,15 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 95px;
    
+}
+input{
+    height: 40px;width:300px;
+}
+button{
+    height: 40px;background-color: aqua;color: beige;border: none;border-radius: 8%;
 }
 .olvidar{
     display: flex;
@@ -79,8 +94,8 @@ input{
     
 
     border: 1px solid rgb(189, 184, 184);
-    width: 50%;
-    height: 10%;
+    width: 360px;
+    height: 80px;
     margin-top: 2%;
     
 }
@@ -95,59 +110,95 @@ input{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 .line{
     background-color: rgb(219, 219, 219);
-    height: 3px;
-    width: 105px;
+    height: 2px;
+    width: 136px;
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 }
+.c{
+    color: blue;font-size: 120%;align-content: center;
+}
+.cc{
+    color: blue;size: 2px;
+}
+.final{
+    display: flex;
+   
+    justify-content: center;
+    color: rgb(165, 164, 161);
+}
+.final1{
+    color: rgb(165, 164, 161);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 875px){
     .imagen{
         display: none;
 
     }
-    .contenido{
-        justify-content: center;
-        align-items: center;
-    }
     .padre{
+        border: solid black 1px;
+        width: 100%;
+        height:100%;
+        
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 180%;
+        align-items: center;
     }
-    #a{
-        font-size: 90%;
-    }
+   
+    
+    
+    
     .olvidar{
         border: none;
     }
     .caja{
         border: none;
     }
+    
+    
+    
 
 }
+
 @media screen and (max-width: 450px){
     .caja{
         border: none;
-        width: 90%;
+       
+        
     }
-    .olvidar{
-        border:none;
-        width: 100%;
-    }
-    .app{
-        width: 200%;
-        height:200%;
-    }
-    #pp{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    .imagen{
+        display: none;
+
     }
     
+    .olvidar{
+        border:none;
+        
+    }
+    .padre{
+        border: solid black 1px;
+        width: 100%;
+        height:100%;
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido{
+        width: 100%;
+        height:100%;
+    }
+    
+    
+    
+       
 }
