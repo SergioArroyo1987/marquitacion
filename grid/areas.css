@@ -1,0 +1,81 @@
+.principal{
+    display: grid;
+    grid-template-areas: "head head1 "
+       "centro centro "
+       "final final";
+       grid-template-columns: 70% 30%;
+       grid-template-rows: 2fr 12fr 2fr;
+}
+.cabecera1{
+    display: grid;
+    grid-area:"head" ;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.cabecera2{
+    display: grid;
+    grid-area: "head head1";
+    background-color:rgb(78, 4, 4) ;
+    color:white;
+    text-align: center;
+}
+.medio{
+    display: grid;
+    grid-area: centro;
+    background-color: orange;
+    grid-template-areas: "a1 a2"
+    ;
+    grid-template-columns: 30% 70%;
+}
+.izquierda{
+    display: grid;
+    grid-area: a1;
+    
+    grid-template-areas: "b1"
+    "b2"
+    "b3";
+    margin:2px;
+}
+.aside{
+    display: grid;
+    grid-area: b1;
+    background-color: white;
+    color:orange;
+    text-align: center;
+}
+.aside2{
+    display: grid;
+    grid-area: b3;
+    background-color: white;
+    color:orange;
+    text-align: center;
+}
+.derecha{
+    background-color: rgb(255, 174, 0);
+    display: grid;
+    grid-template-areas: "c1"
+    "c2";
+    margin: 2px;
+}
+.caja1{
+    display: grid;
+    grid-area:c1 ;
+    border: solid white 1px;
+    text-align: center;
+    margin: 2px;
+}
+.caja2{
+    display: grid;
+    grid-area:c2 ;
+    border: solid white 1px;
+    text-align: center;
+    margin: 2px;
+}
+.pie{
+    display: grid;
+    grid-area: final;
+    background-color:rgb(78, 4, 4);
+    text-align: center;
+    color: white;
+}

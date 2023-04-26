@@ -1,0 +1,24 @@
+.padre{
+    display: grid;
+    height: 100vb;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 50% 50%;
+}
+.a{
+    background-color: rgb(9, 179, 85);
+}
+.b{
+    background-color: orange;
+}
+.c{
+    background-color: orangered;
+}
+.d{
+    background-color: red;
+}
+.e{
+    background-color: blue;
+}
+.f{
+    background-color: yellow;
+}

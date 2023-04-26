@@ -1,0 +1,16 @@
+:root{
+    --color1:green;
+    --color2:black;
+}
+.padre{
+    height: 100vb;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+}
+.a,.c,.e{
+    background-color:var(--color1);
+}
+.b,.d,.f{
+    background-color: var(--color2);
+}

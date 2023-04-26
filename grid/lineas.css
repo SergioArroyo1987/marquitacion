@@ -1,0 +1,91 @@
+.principal{
+    display: grid;
+    grid-template-columns: [a]90% [b]70% ;
+    grid-template-rows: [aa]1fr [bb]5fr [cc]1fr;
+}
+.header{
+    display: grid;
+    color: azure;
+    text-align: center;
+    background-color: black;
+    grid-column: a/b;
+    grid-row: aa;
+}
+.centro{
+    background-color: blue;
+    display: grid;
+    grid-column: a;
+    grid-row: bb;
+    grid-template-columns: [a0]70%[b0]30%[b3];
+    grid-template-rows: [a1]1fr;
+    
+} 
+
+.final{
+    background-color: blueviolet;
+    grid-column: a/b;
+    grid-row: cc;
+    display: grid;
+    grid-template-columns: [g]1fr[h]1fr[j];
+    text-align: center;
+}
+.izquierda{
+    display: grid;
+    grid-column: a0;
+    grid-row: a1;
+    grid-template-columns: [i0]70%[i1]30%[i2];
+    grid-template-rows: [i2]30%[i3] 70%;
+    border: solid rgb(236, 45, 45) 1px;
+    padding: 2%;
+}
+
+.contenido{
+    display: grid;
+    grid-column: i0/i2;
+    grid-row:i2/i3 ;
+    border: solid rgb(14, 224, 119) 4px;
+    text-align: center;
+   margin:2px;
+
+}
+.texto1{
+    display: grid;
+    grid-column: i0;
+    grid-row: i3;
+    border: solid white 1px;
+    margin:2px;
+}
+.texto2{
+    display: grid;
+    grid-column: i1;
+    grid-row: i3;
+    border: solid white 1px;
+    margin:2px;
+}
+.derecha{
+    display: grid;
+    background-color: aqua;
+    grid-column: b0/b3;
+    grid-row: a1;
+    text-align: center;
+    padding: 1%;
+    
+}
+.menu2,.menu3,.menu4{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    margin:2px;
+    
+    
+}.final1{
+    display: grid;
+    border: solid white 1px;
+    grid-column: g;
+    
+}
+.final2{
+    display: grid;
+    border: solid white 1px;
+    grid-column: h/j;
+}
